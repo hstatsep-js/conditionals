@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" />
+        <!-- <link href="style.css" rel="stylesheet" type="text/css" /> -->
+        <style>
+            /* CSS */
+            
+        </style>
+        
+        <title>Tutoring</title>
+    </head>
+    <body>
+        <!-- HTML -->
+        
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- <script src="script.js"></script> -->
+        <script>
+            // JS
+
+            // INPUT:
+            // `struggling` is a string containing "yes" or "no"
+            // `day` is a string containing a day of the week, i.e. "Monday"
+            // OUTPUT:
+            // should return `true` or `false` depending on the following:
+            // only struggling students should attend tutoring
+            // tutoring is only available on Tuesday and Thursday
+            function shouldAttendTutoring(struggling,day){
+                if ( true /* condition */ ){
+                    return true;
+                } else {
+                    return false;
+                }
+            }
+
+            // TESTING shouldAttendTutoring()
+            console.log(shouldAttendTutoring("no","Monday")); // false
+            console.log(shouldAttendTutoring("yes","Tuesday")); // 
+            console.log(shouldAttendTutoring("no","Tuesday")); // 
+            console.log(shouldAttendTutoring("yes","Thursday")); // 
+            console.log(shouldAttendTutoring("yes","Monday")); // 
+            console.log(shouldAttendTutoring("no","Thursday")); // 
+
+
+            // "monday" --> "Monday"
+            // "MONDAY" --> "Monday"
+            function capitalizeFirstLetterOnly(str) {
+                return str.charAt(0).toUpperCase() + str.slice(1).toLowerCase();
+            }
+
+            // Once shouldAttendTutoring() is working correctly,
+            // the code below makes it interactive to the user
+
+            // var userStruggling = prompt("Are you struggling in class?").toLowerCase();
+            // var userDay = prompt("What day of the week is it today? (i.e. Monday)");
+            // userDay = capitalizeFirstLetterOnly(userDay);
+
+            // if(shouldAttendTutoring(userStruggling,userDay)){
+            //   console.log("You should attend tutoring today.");
+            // } else {
+            //   console.log("Don't worry about tutoring today!");
+            // }
+
+
+
+
+
+
+
+
+
+
+
+
+            
+        </script>
+    </body>
+</html>
